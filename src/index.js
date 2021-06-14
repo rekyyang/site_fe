@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {Provider} from "react-redux";
+import rootReducer from "./store/RootReducer";
+import PageConfig from "./common/PageConfig";
+import {Menu} from "antd";
+import {BrowserRouter, Route} from "react-router-dom";
+import HomePage from "./view/HomePage";
 
 ReactDOM.render(
-    <React.StrictMode>
-        <App/>
-    </React.StrictMode>,
+    <Provider store={rootReducer}>
+        <React.StrictMode>
+            <App/>
+        </React.StrictMode>
+    </Provider>,
     document.getElementById('root')
 );
 

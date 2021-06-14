@@ -1,0 +1,32 @@
+#my_header {
+    margin-left: 60%;
+    padding-bottom: 10px;
+    background: rgba(0,0,0,0);
+}
+
+/*.navClass {*/
+/*    background: rgba(0,0,0,0);*/
+/*}*/
+
+.ant-menu-overflow.ant-menu.ant-menu-root.ant-menu-horizontal.ant-menu-light {
+    background: rgba(0,0,0,0);
+}
+
+.ant-menu-overflow-item.ant-menu-item.ant-menu-item-active.ant-menu-item-only-child {
+    color: rgb(255,0,255);
+    font-family: 微软雅黑;
+}
+
+/*.ant-layout-content.site-layout {*/
+/*    background: rgba(0,0,0,1);*/
+/*}*/
+
+.ant-layout.ant-layout {
+    background: url("background.jpg");
+    background-size: cover;
+    height:calc(100vh);
+}
+
+.ant-layout-footer.ant-layout-footer {
+    background: rgba(0,0,0,0);
+}
